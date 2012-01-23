@@ -1,0 +1,11 @@
+ice_i18n_update:
+  url: /:sf_culture/ice-i18n-plugin/update-targets
+  param: { module: iceI18nAdmin, action: updateTargets}
+
+ice_i18n_get_targets:
+  url: /:sf_culture/ice-i18n-plugin/get-targets
+  param: { module: iceI18nAdmin, action: getTargets}
+
+ice_i18n_get_messages:
+  url: /:sf_culture/ice-i18n-plugin/get-messages/:type
+  param: { module: iceI18nAdmin, action: getMessagesByType}
